@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Login</title>
+   <style>
+    .body{
+        margin:0px;
+        padding: 0px;
+    }
+    .container{
+        height: 100vh;
+        background-color:#D47677 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        width: 300px;
+        height: 320px;
+        background-color: #ECECEC;
+        display: flex;
+        flex-direction: column;
+        padding:25px ;
+        border-radius: 3px;
+        
+    }
+    .title{
+        text-align: center;
+        margin-top: 30px;
+        color: #8C7A7A;
+        
+    }
+    .inp{
+        width: 100%;
+        width: 80%;
+        margin-left: 25px;
+        padding: 10px;
+        margin-bottom: 10px;  
+        border:0.5px solid rgba(0, 0, 0, 0.169);
+        color:#7a7a7a;
+    }
+    .btn{
+        margin-top: 10px;
+        width: 88%;
+        background-color: #70C5C0;
+        border: none;
+        color: aliceblue;
+        font-size: 20px;
+        padding: 12px;
+        border-radius: 3px;
+        cursor:pointer;
+    }
+    .abc{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        color: #8C7A7A;
+         gap: 29px;
+         margin-top: 20px;
+    }
+    .abc a{
+        color: #8C7A7A;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <form class="main">
+            <h1 class="title">Member login</h1>
+            <input class="inp" type="text" placeholder="Username" required>
+            <input class="inp" type="password" placeholder="Password" required>
+            <input class="inp btn" type="submit" value="Sign in">
+            <div class="abc">
+                <div><input type="checkbox"><span>Remember Me</span></div>
+                <p><a href="#">Forgot Password?</a></p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
